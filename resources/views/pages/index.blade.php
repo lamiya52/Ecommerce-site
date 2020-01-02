@@ -6,11 +6,7 @@
         <div class="row">
             <div class="col-md-4">
 
-                <div class="list-group">
-                    <a href="#" class="list-group-item disabled">First item</a>
-                    <a href="#" class="list-group-item">Second item</a>
-                    <a href="#" class="list-group-item">Third item</a>
-                </div>
+                @include('partials.product-slidebar')
 
             </div>
 
@@ -22,7 +18,7 @@
                         <! -- will be repeated as per featured product rows -->
                         <div class="col-md-3">
                             <div class="card" >
-                                <img class="card-img-top feature-img" src="{{ asset('images/products/' . 'iphone.jpg') }}" alt="Card image">
+                                <img class="card-img-top feature-img" src="{{ asset('images/products/' . '1.jpg') }}" alt="Card image">
                                 <div class="card-body">
                                     <h4 class="card-title">iphone</h4>
                                     <p class="card-text">Taka - 90,000</p>
@@ -33,7 +29,7 @@
 
                         <div class="col-md-3">
                             <div class="card" >
-                                <img class="card-img-top feature-img" src="{{ asset('images/products/' . 'iphone.jpg') }}" alt="Card image">
+                                <img class="card-img-top feature-img" src="{{ asset('images/products/' . '1.jpg') }}" alt="Card image">
                                 <div class="card-body">
                                     <h4 class="card-title">iphone</h4>
                                     <p class="card-text">Taka - 90,000</p>
@@ -44,7 +40,7 @@
 
                         <div class="col-md-3">
                             <div class="card" >
-                                <img class="card-img-top feature-img" src="{{ asset('images/products/' . 'iphone.jpg') }}" alt="Card image">
+                                <img class="card-img-top feature-img" src="{{ asset('images/products/' . '1.jpg') }}" alt="Card image">
                                 <div class="card-body">
                                     <h4 class="card-title">iphone</h4>
                                     <p class="card-text">Taka - 90,000</p>
@@ -55,7 +51,7 @@
 
                         <div class="col-md-3">
                             <div class="card" >
-                                <img class="card-img-top feature-img" src="{{ asset('images/products/' . 'iphone.jpg') }}" alt="Card image">
+                                <img class="card-img-top feature-img" src="{{ asset('images/products/' . '1.jpg') }}" alt="Card image">
                                 <div class="card-body">
                                     <h4 class="card-title">iphone</h4>
                                     <p class="card-text">Taka - 90,000</p>
